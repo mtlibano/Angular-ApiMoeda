@@ -1,0 +1,6 @@
+<div class="container">
+    <input type="number" id="txtValor" [(ngModel)]="valor">
+    <button (click)="buscarMoeda()">Enviar</button>
+</div>
+
+<app-tabela [moeda]="moeda"></app-tabela>
